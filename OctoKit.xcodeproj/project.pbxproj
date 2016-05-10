@@ -95,6 +95,10 @@
 		23F6434F1C7AEF70000427B3 /* user_repos.json in Resources */ = {isa = PBXBuildFile; fileRef = 234F4BDC1BDDE44600A58EF7 /* user_repos.json */; };
 		23F643501C7AEF72000427B3 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = E7EE59DF1BE139FD0012E3D2 /* users.json */; };
 		23F643511C7AEF73000427B3 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = E7EE59DF1BE139FD0012E3D2 /* users.json */; };
+		494B3E941CE1D89A000436EF /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494B3E931CE1D89A000436EF /* Events.swift */; };
+		494B3E951CE1D8B2000436EF /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494B3E931CE1D89A000436EF /* Events.swift */; };
+		494B3E961CE1D8B3000436EF /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494B3E931CE1D89A000436EF /* Events.swift */; };
+		494B3E971CE1D8B4000436EF /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494B3E931CE1D89A000436EF /* Events.swift */; };
 		DABBDE501C8C0C20008F57CD /* issue.json in Resources */ = {isa = PBXBuildFile; fileRef = DABBDE4F1C8C0C20008F57CD /* issue.json */; };
 		DABBDE511C8C0C20008F57CD /* issue.json in Resources */ = {isa = PBXBuildFile; fileRef = DABBDE4F1C8C0C20008F57CD /* issue.json */; };
 		DABBDE521C8C0C20008F57CD /* issue.json in Resources */ = {isa = PBXBuildFile; fileRef = DABBDE4F1C8C0C20008F57CD /* issue.json */; };
@@ -221,6 +225,7 @@
 		23CAF2D81C7AB9DB005011C4 /* RequestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RequestKit.framework; path = Carthage/Build/watchOS/RequestKit.framework; sourceTree = "<group>"; };
 		23F6433C1C7AEEB6000427B3 /* Nocilla.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nocilla.framework; path = Carthage/Build/tvOS/Nocilla.framework; sourceTree = "<group>"; };
 		23F643421C7AEF2F000427B3 /* Nocilla.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nocilla.framework; path = Carthage/Build/Mac/Nocilla.framework; sourceTree = "<group>"; };
+		494B3E931CE1D89A000436EF /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		DABBDE4F1C8C0C20008F57CD /* issue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = issue.json; path = Fixtures/issue.json; sourceTree = "<group>"; };
 		DAEFC58F1C83D85100CF3785 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		DAEFC5941C83EF0D00CF3785 /* Milestone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Milestone.swift; sourceTree = "<group>"; };
@@ -337,6 +342,7 @@
 				239BE7CD1B8C47A100D2CE22 /* OctoKit.h */,
 				23B267851BDDD756003887E3 /* Configuration.swift */,
 				E7EE59DB1BE119110012E3D2 /* Follow.swift */,
+				494B3E931CE1D89A000436EF /* Events.swift */,
 				E7EDEA691C871CEB006BAAF2 /* Issue.swift */,
 				DAEFC58F1C83D85100CF3785 /* Label.swift */,
 				DAEFC5941C83EF0D00CF3785 /* Milestone.swift */,
@@ -719,6 +725,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494B3E941CE1D89A000436EF /* Events.swift in Sources */,
 				E7EE59DC1BE119110012E3D2 /* Follow.swift in Sources */,
 				23B2678A1BDDD756003887E3 /* Configuration.swift in Sources */,
 				E7EE59D81BDFEFB30012E3D2 /* Stars.swift in Sources */,
@@ -737,6 +744,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494B3E971CE1D8B4000436EF /* Events.swift in Sources */,
 				23CAF2A51C7AB6C2005011C4 /* Follow.swift in Sources */,
 				23CAF2AE1C7AB6CD005011C4 /* Repositories.swift in Sources */,
 				23CAF2B11C7AB6D1005011C4 /* User.swift in Sources */,
@@ -771,6 +779,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494B3E961CE1D8B3000436EF /* Events.swift in Sources */,
 				23CAF2A61C7AB6C2005011C4 /* Follow.swift in Sources */,
 				23CAF2AF1C7AB6CD005011C4 /* Repositories.swift in Sources */,
 				23CAF2B21C7AB6D1005011C4 /* User.swift in Sources */,
@@ -805,6 +814,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494B3E951CE1D8B2000436EF /* Events.swift in Sources */,
 				23CAF2A71C7AB6C3005011C4 /* Follow.swift in Sources */,
 				23CAF2B01C7AB6CE005011C4 /* Repositories.swift in Sources */,
 				23CAF2B31C7AB6D2005011C4 /* User.swift in Sources */,
